@@ -67,9 +67,7 @@ public class DropDowns {
             Image emblem = new Image("file:images/medienEmblem.png", 200, 200, true, true);
             ImageView imgView = new ImageView(emblem);
             Label aboutTitleLabel = new Label("Medien Player");
-            Label aboutLabel = new Label("\n\n\nVersion 1.0 All rights reserved\n"
-                    + "-Shane Abe\n" +
-                        "-Valerie Ehimhen");
+            Label aboutLabel = new Label("\n\n\nVersion 1.0 All rights reserved\n");
             aboutTitleLabel.setStyle("-fx-font-size: 25; -fx-font-weight: bold");
             aboutTitleLabel.setPadding(new Insets(20,20,20,20));
             aboutLabel.setPadding(new Insets(20, 20, 20, 20));
