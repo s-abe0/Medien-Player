@@ -4,3 +4,7 @@
 
 Medien is a Java media player that can stream online videos via HTTP or play local media files. It can also play
 audio files. Supported formats are MP4, FLV, MP3, AIFF, WAV, and M4A. 
+
+When started, the user is greeted with the Medien logo:
+
+![medienhomesc](https://cloud.githubusercontent.com/assets/25370724/23026609/cb96e560-f42f-11e6-9791-2b65926a8220.png)
