@@ -17,9 +17,17 @@ Medien is very simple and easy to use.
 
 To compile the program:
 
-In a terminal, run the javac compiler on all the source files:   javac *.java
+In a terminal, cd to the src directory. Run the javac compiler on all the source files:   
 
-To run the program from the terminal:  java JavaMediaPlayer
+javac *.java
+
+To run the program from the terminal:  
+
+java JavaMediaPlayer
+
+To create a jar file for Medien:
+
+jar cvfe Medien.jar JavaMediaPlayer *.class
 
 ***Note***
 The full screen option is currently commented out because it is causing complications that I have not had time to figure out. More details are within the source code. 
